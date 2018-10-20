@@ -1,6 +1,7 @@
 body {
-  background: linear-gradient(90deg, orange, white 5%, white 95%, orange);
+  background: linear-gradient(90deg, orange, #170B3B 5%, #170B3B 95%, orange);
   font-family: 'Noto Sans JP', sans-serif;
+  color: white;
 }
 p {
   font-size: x-large;
