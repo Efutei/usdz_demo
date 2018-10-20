@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="jp" dir="ltr">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91926305-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-91926305-5');
+    </script>
     <meta charset="utf-8">
-    <title></title>
+    <title>TPY_AR</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>T字のキャラクターとARで写真を撮るデモです。</h1>
-    <h2>iOS12のみ対応しています。</h2>
-    <iframe width="100%" height="300" frameborder="0"
-      src="https://www.vectary.com/usdz/embed/6fdb9d90-4456-477b-8d1e-aeea1c0db3f5">
-    </iframe>
+    <div id="container">
+      <h1 id="title">TPY_AR</h1>
+      <p id="description">T字のキャラクターとARで写真を撮れます。<br>iOS12のみ対応しています。</p>
+      <iframe id="model" width="100%" height="300" frameborder="0"
+        src="https://www.vectary.com/usdz/embed/f64bb573-b1ef-4137-bc46-cf6f57ad007e">
+      </iframe>
+      <div id="tweet">
+        <div>↓ツイートして、どうぞ。</div>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-url="https://efutei.github.io/usdz_demo/" data-hashtags="紅陵祭" data-show-count="false">Tweet</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      <div id="author">制作: <a href="https://twitter.com/takushokudcrc">拓殖大学ディジタルコンテンツ研究愛好会</a></div>
+    </div>
   </body>
 </html>
